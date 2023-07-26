@@ -1,0 +1,92 @@
+[
+  {
+    "Degree": "Full Stack Developer bootcamp",
+    "University": "University of Toronto",
+    "Mark": "",
+    "Date": "undergoing",
+    "Location": "Toronto, Canada",
+    "News": []
+  },
+  {
+    "Degree": "Reactjs and jsx",
+    "University": "University of Toronto",
+    "Mark": "100%",
+    "Date": "feb 2023 to april 2023",
+    "Location": "Toronto, Canada",
+    "News": []
+  },
+  {
+    "Degree": "Python I in Data Science",
+    "University": "University of Toronto",
+    "Mark": "93%",
+    "Date": "Oct 2022 to Nov 2023",
+    "Location": "Toronto, Canada",
+    "News": []
+  },
+  {
+    "Degree": "Executive MBA",
+    "University": "IIM Calcutta",
+    "Mark": "Good",
+    "Date": "2015",
+    "Location": "Kolkata, India",
+    "News": []
+  },
+  {
+    "Degree": "Master Of Science",
+    "University": "Hindustan College",
+    "Mark": "68%",
+    "Rank": "Madras University First Rank",
+    "Date": "2008",
+    "Location": "Chennai, India",
+    "News": [
+      "THINA THANTHI daily on 21-2-2009",
+      "THINA MALAR daily on 05-02-2009,",
+      "DECCAN CRONICLE daily on 09-02-2009"
+    ],
+    "SS": [
+      "*Obtained 1 LAKH/100THOUSAND cash prize for getting University first Rank in Masters from Hindustan College.",
+      "Received BEST OUT GOING STUDENT award in, Hindustan College of Arts and Science in II year, M.Sc. Bioinformatics.",
+      "Received BEST ACADEMIC PERFORMANCE award in, Hindustan College of Arts and Science in I year, M.Sc. Bioinformatics.",
+      "Received BEST ACADEMIC PERFORMANCE award in, Hindustan College of Arts and Science in II year, M.Sc. Bioinformatics.",
+      "Obtained Gold Medal for getting University First Rank in Madras University on 151st Annual Convocation 2008 for my Master’s in Bioinformatics (Computational Biology) on 19-01-2009."
+    ]
+  },
+  {
+    "Degree": "Bachelors of Science",
+    "University": "Ethiraj College for Women",
+    "Mark": "86%",
+    "Rank": "Madras University First Rank",
+    "Date": "2006",
+    "Location": "Chennai, India",
+    "News": [],
+    "OIDetails": [
+      "Received Merit Scholarship for being an OUTSTANDING STUDENT IN ACADEMICS, in Ethiraj College for women in III year, B.Sc. Zoology.",
+      "Received Merit Scholarship for being an OUTSTANDING STUDENT IN ACADEMICS, in Ethiraj College for women in II year,B.Sc. Zoology."
+    ]
+  },
+  {
+    "Degree": "GNIIT",
+    "University": "NIIT",
+    "Mark": "86%",
+    "Rank": "Madras University First Rank",
+    "Date": "2008",
+    "Location": "Chennai, India",
+    "News": []
+  },
+  {
+    "Degree": "12th Grade / Standard",
+    "School": "12th Tamil Nadu Matric",
+    "Mark": "84%",
+    "Date": "2002",
+    "Location": "Chennai, India",
+    "News": []
+  },
+  {
+    "Degree": "10th Grade / Standard",
+    "School": "10th Tamil Nadu Matric",
+    "Mark": "89%",
+    "Date": "2000",
+    "Location": "Chennai, India",
+    "News": []
+  }
+]

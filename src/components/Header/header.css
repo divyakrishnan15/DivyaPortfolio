@@ -1,0 +1,74 @@
+.Header {
+  /* background-color: rgb(44, 43, 43); */
+  /* background-color: #000100; */
+  background-color: #0f020e;
+  background-size: 100%;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  margin-top: 0px;
+  position: relative;
+  overflow: hidden;
+}
+.Header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.resumewordhighlight{
+    color: rgb(0, 153, 255);
+  }
+.Header a {
+  position: absolute;
+  bottom: 10%;
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+}
+.Header a svg {
+  position: absolute;
+  height: 20px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.videoTag{
+  height: calc(100% - 1%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  /* width: calc(100% - 0.15%); */
+  /* display: flex; */
+  /* float: middle; */
+  /* flex-direction: row;
+  align-items: center; */
+  /* min-width: 100vw; */
+  /* aspect-ratio: ; */
+  /* position: absolute; */
+  /* object-fit:contain; */
+  /* object-fit: fill; */
+  /* width:120%; */
+  /* float: left; */
+  /* top: 0; */
+  /* padding: none; */
+  /* inset:0px 0 0 -150px; */
+}
+
+/* .video{
+  height: 100vh;
+  width: 100vw;
+} */

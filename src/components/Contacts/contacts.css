@@ -1,0 +1,39 @@
+@media only screen and (max-width: 588px) {
+  .contacts {
+    visibility: hidden;
+  }
+  .contact-margin-add {
+    margin-bottom: 5px;
+  }
+  .contact-router-logo {
+    width: 50px;
+    height: 50px;
+  }
+  .contact-router-logo-gmail {
+    width: 50px;
+    height: 35px !important;
+  }
+  
+}
+.contacts {
+  position: -webkit-sticky;
+  position: fixed;
+  z-index: 1;
+  width: 50px;
+  right: 17px;
+  bottom: 25px;
+  padding: 10px;
+  background-color: rgb(44, 43, 43);
+  border-radius: 10px;
+}
+.contact-margin-add {
+  margin-bottom: 5px;
+}
+.contact-router-logo {
+  width: 50px;
+  height: 50px;
+}
+.contact-router-logo-gmail {
+  width: 50px;
+  height: 35px !important;
+}

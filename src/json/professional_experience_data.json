@@ -1,0 +1,82 @@
+[
+  {
+    "Name": "TCS Canada – Client: RBC Capital Market",
+    "Role": "Automation Test Lead",
+    "Dates": "March 2019 – Oct 2022",
+    "Responsibility": [
+      "Automated in Playwright (Javascript) framework and integrated with Test Rail, Aws secrets, added docker file in framework and Jenkins completed end to end set up and the team is using it currently.",
+      "Automated windows application from scratch using leanft with the provided framework of different application.",
+      "Automated 2 web applications in python with backend server validation",
+      "Worked in 2 Cucumber, BDD projects where I maintained and automated new scenarios. Of which one of the application is AI (artificial Intelligence) app.",
+      "Worked in Manual testing in Equity Options project.",
+      "Has worked in equities for US, CA, EU, LATAM venues and work flows."
+    ],
+    "Awards": []
+  },
+  {
+    "Name": "Virtusa Canada - Client:BMO",
+    "Role": "Test Lead",
+    "Dates": "Sep 2018 – March 2019",
+    "Responsibility": [
+      "Automated Desktop application using UFT and perfecto plugin. Provided demo to the team.",
+      "Got Perfecto access and educated the team."
+    ],
+    "Awards": []
+  },
+  {
+    "Name": "Infosys India – client : Bank of America",
+    "Role": "Technical Test Lead",
+    "Dates": "Jun 2015 - May 2018",
+    "Responsibility": [
+      "Performed smoke, Regression and development automation test scripts in vb script (tool used for automation is test complete) of the window based application built on .net, WPF and intelligraphics. We need to test the data of Credit card application matching CICS mainframe screens also DB2 databases. Has to give demo to the client post development of the scripts in VB script.",
+      "The frame work used is Data driven and the application is very complex that it a windows Call Center application and test complete is a best tool to automate window based application also the application has telephony. We have developed scripts in VB to automate the telephony connections and how the customer care representatives collects money from the delinquent customers.",
+      "We did POC in TOSCA, UFT but Test Complete best suited also we used as strings for dynamic programming in Test Complete v10",
+      "As a lead my resources are in Chennai has to guide them and to sail through the project smoothly. Prepared estimates based on units simple, medium and complex test cases."
+    ],
+    "Awards": ["Insta Award to provide value add to automation"]
+  },
+  {
+    "Name": "Adecco India - Client: Metlife",
+    "Role": "Senior Test Engineer",
+    "Dates": "Jun 2013 - May 2015",
+    "Responsibility": [
+      "Automated I am the overall Project Lead for 23 Applications for MSLS NY project which has teams in Chennai and Mumbai. New Products are included in the Application for our client MetLife. We developed automation scripts in UFT in key work driven approach.",
+      "Need to Co-ordinate and call all the 23 Application Leads both onsite and offshore regarding the status of their project on daily basis, need to follow-up with the defects to closure, Organized Daily Status Call @5-7p.m with all 23 downstream Leads onsite and offshore, represents Daily Status Call with Client QA Lead @ 9-10 p.m to report on the status and issues I received on the evening Call.",
+      "Perform L0, L1, L2 estimates, write Master Test Plan, Create Test Scenarios, test Cases and review my team’s work. Handle a team of 5, involved in Test Closure activities."
+    ],
+    "Awards": [
+      "Was the only recipient of Star Performer Award from Client-Metlife Vice President amongst 500+ employees in Metlife Project which includes both Chennai and Mumbai"
+    ]
+  },
+  {
+    "Name": "ITC Infotech India - Client: United Health Group ",
+    "Role": "Associate Consultant",
+    "Dates": "Aug 2011 – Feb 2013",
+    "Responsibility": [
+      "Worked in Claims Highway Operational Data Store Project where I am testing the load claims from the Claims Repository (Pre Adjudicated and Adjudicated tables to staging tables is done by and High Performance Load process utility and then to the Operational Data Store (ODS) Historical tables by High Performance Unload utility, where the claims come from different Claim Engines like COSMOS, TOPS, FACETS, PHS and NICE and finally to Unified Data Store (UDS).",
+      "Used High Performance Load/Unload utility to unload the data from Claims repository to staging and to load to Operational Data Store.",
+      "Used QTP scripting and REXX tool created by one of my team mate from CTS for various comparison and calculation. So I have the knowledge of those scripts and usage"
+    ],
+    "Awards": [
+      "Client UHG has appreciated me and sent a note on 9th January 2012 to ITC Infotech where it is published in the official website of ITC Infotech."
+    ]
+  },
+  {
+    "Name": "AON Hewitt India - Client: Metlife ",
+    "Role": "Test Engineer",
+    "Dates": "Aug 2008 – March 2010",
+    "ShrtDescription": [
+      "Worked in testing Batch Channel Job where in the job does a mass base pay change for employees and write to two different databases through adapters.",
+      "JCL member: To set environments, data base, time and to check the errors that occur in the IOF summary",
+      "COBOL member: Retrieve it from COBOL LIB and check for the different populations and the queries involved."
+    ],
+    "Responsibility": [
+      "Worked in testing Batch Channel Job where in the job does a mass base pay change for employees and write to two different databases through adapters.",
+      "JCL member: To set environments, data base, time and to check the errors that occur in the IOF summary",
+      "COBOL member: Retrieve it from COBOL LIB and check for the different populations and the queries involved."
+    ],
+    "Awards": [
+      "Certificate for outstanding work in November release 2009 in Pepsi Co team."
+    ]
+  }
+]

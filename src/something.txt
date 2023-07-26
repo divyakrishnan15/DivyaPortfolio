@@ -1,0 +1,42 @@
+const [api, setApi] = useState(new Set());
+console.log(api);
+useEffect(() => {
+    let temp_set = new Set();
+    const fetchdata = async () => {
+        await fetch("https://api.api-ninjas.com/v1/cars?make=toyota", {
+            method: 'GET',
+            headers: { 'X-Api-Key': 'kMPKvh4pL/WBtNdec0j9WA==65TV8hhD6ygz3bPk'},
+        })
+        .then((response) => response.json())
+        .then((response) => {
+            console.log(response)
+            // return Object.entries(JSON.parse(JSON.stringify(response)).data).map(
+            //   (v) => {
+            //     temp_set.add(v[1]);
+            //     setApi(temp_set);
+            //   }
+            // );
+        })
+        .catch((err) => {
+            console.error(err);
+        });
+    };
+    fetchdata();
+}, []);
+
+
+<ul>
+{Object.values(Array.from(api)).map((v) => {
+    return (
+    <>
+        <li>{v.id}</li>
+        <li>
+        {v.first_name} {v.last_name}
+        </li>
+        <li>{v.email}</li>
+        <br />
+        <hr />
+    </>
+    );
+})}
+</ul>

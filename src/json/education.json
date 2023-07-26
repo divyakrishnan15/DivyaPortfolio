@@ -1,0 +1,43 @@
+[
+  {
+    "Degree": "Full Stack Developer bootcamp",
+    "University": "University of Toronto",
+    "Mark": "",
+    "Date": "undergoing",
+    "Location": "Toronto, Canada",
+    "News": []
+  },
+  {
+    "Degree": "Reactjs and jsx",
+    "University": "University of Toronto",
+    "Mark": "Grade - 100%",
+    "Date": "feb 2023 to april 2023",
+    "Location": "Toronto, Canada",
+    "News": []
+  },
+  {
+    "Degree": "Python I in Data Science",
+    "University": "University of Toronto",
+    "Mark": "Grade - 93%",
+    "Date": "Oct 2022 to Nov 2023",
+    "Location": "Toronto, Canada",
+    "News": []
+  },
+  {
+    "Degree": "Executive MBA",
+    "University": "IIM Calcutta",
+    "Mark": "Grade - Good",
+    "Date": "2015",
+    "Location": "Kolkata, India",
+    "News": []
+  },
+  {
+    "Degree": "Master Of Science",
+    "University": "Hindustan College",
+    "Mark": "Grade - 68%(University First)",
+    "Rank": "Madras University First Rank",
+    "Date": "2008",
+    "Location": "Chennai, India",
+    "News": []
+  }
+]

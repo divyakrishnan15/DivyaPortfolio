@@ -1,0 +1,71 @@
+@media only screen and (max-width: 588px) {
+  .divya-krishnan-section {
+    /* background-color: rgb(201, 255, 201); */
+    background-color: rgb(44, 43, 43);
+    width: 250px;
+    border-radius: 15px;
+    height: 330px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .img-section-heading {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+  }
+  .divya-krishnan-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+  }
+}
+@media only screen and (min-width: 1570px) {
+  .divya-krishnan-section {
+    background-color: rgb(44, 43, 43);
+    width: 250px;
+    border-radius: 15px;
+    height: 330px;
+    float: right;
+    margin-right: 130px;
+    margin-top: 30px;
+  }
+  .img-section-heading {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+  }
+  .divya-krishnan-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+  }
+}
+@media only screen and (min-width: 588px) and (max-width: 1570px) {
+  .divya-krishnan-section {
+    /* background-color: rgb(201, 255, 201); */
+    background-color: rgb(44, 43, 43);
+    width: 250px;
+    border-radius: 15px;
+    height: 330px;
+    float: right;
+    margin-right: 110px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .img-section-heading {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+  }
+  .divya-krishnan-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+  }
+}

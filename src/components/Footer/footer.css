@@ -1,0 +1,116 @@
+@media only screen and (min-width:470px) and (max-width:1320px){
+  .footer-card :not(:first-of-type){
+    display: block;
+    white-space: normal;
+    color: white;
+    width: 250px;
+  }
+  .last{
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+  .footer-heading{
+    color: rgb(223, 218, 218);
+  }
+  #footer {
+    display: inline-block;
+    background-color: rgb(44, 43, 43);
+    width: calc(100% - 200px);
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: calc(110px + max-content);
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (max-width:470px){
+  .footer-card :not(:first-of-type){
+    display: block;
+    white-space: normal;
+    color: white;
+    width: 250px;
+  }
+  .last{
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+  #footer {
+    display: inline-block;
+    background-color: rgb(44, 43, 43);
+    width: calc(100% - 100px);
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: calc(110px + max-content);
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  .footer-resume-wrapper {
+    margin-inline: 10px 10px 10px 10px;
+    border-style: solid;
+    border-color: rgb(36, 34, 34);
+    border-width: 3px;
+    border-radius: 8px;
+    margin-top: 5px;
+    padding: 4px;
+    padding-left: 8px;
+    display: inline-block;
+    width: 200px;
+    height: inherit;
+  }
+}
+@media only screen and (min-width:1320px){
+  .footer-card{
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+    color: white;
+    width: 280px;
+  }
+  .footer-resume-wrapper {
+    width: 220px;
+  }
+  #footer {
+    display: inline-block;
+    background-color: rgb(44, 43, 43);
+    width: calc(100% - 200px);
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: calc(110px + max-content);
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+}
+
+.footer-wrapper {
+  width: max-content;
+  margin: auto;
+  height: calc(100% - (55px - 55px));
+}
+.footer-resume-download {
+  color: white;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.footer-resume-wrapper {
+  margin-inline: 10px 10px 10px 10px;
+  border-style: solid;
+  border-color: rgb(36, 34, 34);
+  border-width: 3px;
+  border-radius: 8px;
+  margin-top: 5px;
+  padding: 4px;
+  padding-left: 8px;
+  display: inline-block;
+  width: 250px;
+  height: inherit;
+}
+.footer-resume-img {
+  margin-left: 10px;
+  vertical-align: middle;
+}

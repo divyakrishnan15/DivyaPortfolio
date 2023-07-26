@@ -1,0 +1,177 @@
+@media only screen and (max-width: 588px) {
+  .section5-job-description {
+    margin-top: 5px;
+    padding-left: 25px;
+    width: calc(100% - 50px);
+  }
+  .modal-job-award-list {
+    margin-top: 5px;
+    padding-left: 23px;
+    width: calc(100% - 50px);
+  }
+}
+@media only screen and (max-width: 480px) {
+  #modal{
+    position: fixed;
+    z-index: 2;
+    width: calc(75vw);
+    height: calc(100vh - 200px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(252, 252, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.051);
+  }
+}
+@media only screen and (min-width: 480px) {
+  #modal{
+    position: fixed;
+    z-index: 2;
+    width: calc(100vw - 200px);
+    height: calc(100vh - 200px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 40px;
+    background-color: rgb(252, 252, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.051);
+  }
+}
+@media only screen and (min-width: 1570px) {
+  .section5-job-description {
+    margin-top: 5px;
+    padding-left: 45px;
+    width: 70%;
+  }
+  .modal-job-award-list {
+    margin-top: 5px;
+    padding-left: 23px;
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 588px) and (max-width: 1570px) {
+  .section5-job-description {
+    margin-top: 5px;
+    padding-left: 25px;
+    width: 70%;
+  }
+  .modal-job-award-list {
+    margin-top: 5px;
+    padding-left: 23px;
+    width: 70%;
+  }
+}
+#section5 {
+  float: left;
+  background-size: 100%;
+  padding-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  width: calc(100% - 60px);
+}
+.section5-heading {
+  margin-top: 40px;
+  font-size: 30px;
+  padding-left: 20px;
+}
+.section5-content {
+  margin-left: 40px;
+  margin-bottom: 5px;
+  font-size: 19px;
+}
+.section5-inline {
+  display: inline;
+}
+.section5-job-title {
+  text-decoration: solid;
+  font-size: 23px;
+  margin-top: 25px;
+}
+.section5-job-role {
+  text-decoration: solid;
+  margin-right: 20px;
+}
+.section5-job-dates {
+  color: rgb(0, 153, 255);
+}
+.section5-heading-award {
+  font-size: 21px;
+}
+.section5-p-award {
+  padding-left: 20px;
+}
+button:hover{
+  cursor:pointer;
+}
+#modal-bg{
+  background-color: rgba(0, 0, 0, 0.184);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+}
+.close-button{
+  position: absolute;
+  z-index: 4;
+  background-color: white;
+  box-shadow: 0px 0px 10px 1px rgb(217, 217, 217);
+  height: 30px;
+  width: 25px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  right: 50px;
+  top: 50px;
+}
+#modal-job-inline{
+  display: inline-block;
+}
+#modal-job-title{
+  font-size: 23px;
+  margin-bottom: 8px;
+}
+#modal-head-bdy-seperation{
+  border: 0.3px solid rgb(221, 221, 221);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#modal-job-role{
+  font-size: 18.5px;
+  margin-right: 20px;
+}
+#modal-job-date{
+  font-size: 18.5px;
+  color: rgb(0, 153, 255);
+}
+.modal-job-responsibility {
+  font-size: 21px;
+}
+#modal-job-responsibility-list{
+  margin-bottom: 10px;
+}
+.modal-job-award {
+  font-size: 21px;
+}
+.modal-list{
+  font-size: 17px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+.hide{
+  visibility: hidden;
+}
+.show{
+  visibility: visible;
+}

@@ -1,0 +1,12 @@
+version: "1"
+services:
+  nginx-react:
+    image: react_div_portfolio_img:latest
+    container_name: react_div_container
+    build: 
+        context: . 
+        dockerfile: Dockerfile
+    ports:
+      - 80:80
+    environment: 
+        NODE_ENV: production
