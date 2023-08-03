@@ -29,6 +29,8 @@ function App() {
       {/* Summary */}
       <Summary />
 
+      <Projects/>
+
       {/* Achievements */}
       <Achievements />
 
@@ -39,7 +41,6 @@ function App() {
       {/* Education */}
       <Education />
 
-      <Projects/>
       
       {/* Professional Experience */}
       <Professionalexperience />

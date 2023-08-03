@@ -4,7 +4,7 @@ export const projectjson = [
     projname: "App Deployed in DOCKER",
     deployed: require("../../src/assets/projimg/netlify.png"),
     // url: "https://techblognew-29e40b83e673.herokuapp.com/",
-    tools: "SQL, Sequelize, Handlebars, Bootstrap",
+    tools: "React, Docker, JSON",
     projimg: require("../../src/assets/project/apps_deployed_in_docker/docker.png"),
     images: [
       {
@@ -19,6 +19,61 @@ export const projectjson = [
   },
   {
     id:2,
+    projname: "Hotel Booking App",
+    deployed: require("../../src/assets/projimg/heroku.png"),
+    url: "https://hotelbookingappnew-443fc7db6a37.herokuapp.com/",
+    video: "Rki3AApJ3SU",
+    tools: "Mysql, Heroku, Socket IO, JAWS DB, Handlebars, Tailwind CSS",
+    // projimg: require("../../src/assets/project/hotel-booking/home.png"),
+    images: [
+      {
+        img: require("../../src/assets/project/hotel-booking/home.png"),
+        text: "Home Page",
+      },
+      {
+        img: require("../../src/assets/project/hotel-booking/signin.png"),
+        text: "Sign In",
+      },
+      {
+        img: require("../../src/assets/project/hotel-booking/signup.png"),
+        text: "Sign Up",
+      },
+      {
+        img: require("../../src/assets/project/hotel-booking/chat.png"),
+        text: "Chat",
+      },
+      {
+        img: require("../../src/assets/project/hotel-booking/hotel-booking-1.png"),
+        text: "Booking step 1",
+      },
+      {
+        img: require("../../src/assets/project/hotel-booking/hotel-booking-1-guests.png"),
+        text: "Booking step 1",
+      },
+      {
+        img: require("../../src/assets/project/hotel-booking/hotel-booking-2.png"),
+        text: "Booking step 2",
+      },
+      {
+        img: require("../../src/assets/project/hotel-booking/hotel-booking-3.png"),
+        text: "Booking step 3",
+      },
+      {
+        img: require("../../src/assets/project/hotel-booking/hotel-booking-4.png"),
+        text: "Booking step 4",
+      },
+      {
+        img: require("../../src/assets/project/hotel-booking/hotel-booking-5.png"),
+        text: "Booking step 5",
+      },
+      {
+        img: require("../../src/assets/project/hotel-booking/dashboard.png"),
+        text: "Dashboard",
+      },
+    ],
+  },
+  {
+    id:3,
     projname: "Tech Blog",
     deployed: require("../../src/assets/projimg/heroku.png"),
     url: "https://techblognew-29e40b83e673.herokuapp.com/",
@@ -56,7 +111,7 @@ export const projectjson = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     projname: "Crypto Mania",
     projimg: require("../../src/assets/project/cryptomania/cryptomania-home.png"),
     deployed: require("../../src/assets/projimg/awsamplify.png"),
@@ -94,7 +149,7 @@ export const projectjson = [
     tools: "ReactJS, AG-Grid, OpenAI, Chart JS, Context Api Hook",
   },
   {
-    id: 4,
+    id: 5,
     projname: "Password Generator",
     projimg: require("../../src/assets/project/pwdgen/pwdgen.png"),
     deployed: require("../../src/assets/projimg/github.png"),
@@ -112,7 +167,7 @@ export const projectjson = [
     tools: "HTML, CSS, Javascript",
   },
   {
-    id: 5,
+    id: 6,
     projname: "Quiz app",
     projimg: require("../../src/assets/project/quizapp/quizapp-home.png"),
     deployed: require("../../src/assets/projimg/github.png"),
@@ -146,7 +201,7 @@ export const projectjson = [
     tools: "HTML, CSS, Jquery, LocalStorage",
   },
   {
-    id: 6,
+    id: 7,
     projname: "Work Scheduler",
     projimg: require("../../src/assets/project/workscheduler/workscheduler-3pm.png"),
     deployed: require("../../src/assets/projimg/github.png"),
@@ -164,7 +219,7 @@ export const projectjson = [
     tools: "HTML, CSS, Javascript, LocalStorage",
   },
   {
-    id: 7,
+    id: 8,
     projname: "Weather App",
     projimg: require("../../src/assets/project/weatherapp/weatherapp-home.png"),
     deployed: require("../../src/assets/projimg/github.png"),
@@ -183,7 +238,7 @@ export const projectjson = [
     tools: "Google Maps Api",
   },
   {
-    id: 8,
+    id: 9,
     projname: "Real Estate App",
     projimg: require("../../src/assets/project/realityreach/reality-reach-home1.png"),
     deployed: require("../../src/assets/projimg/github.png"),
@@ -241,7 +296,7 @@ export const projectjson = [
     tools: "HTML, Tailwind CSS, Pagination, Filter, Image Carousel",
   },
   {
-    id: 9,
+    id: 10,
     projname: "Password Generator in Reactjs",
     projimg: require("../../src/assets/project/pwdgenReactjs/ReactPasswordgen.png"),
     deployed: require("../../src/assets/projimg/github.png"),
@@ -259,7 +314,7 @@ export const projectjson = [
     tools: "Reactjs,useRef hook,copy to clipboard,slider input",
   },
   {
-    id: 10,
+    id: 11,
     projname: "Readme and SVG in Nodejs",
     projimg: require("../../src/assets/project/readmeSVGNodejs/svgcreattionandjesttest.png"),
     deployed: require("../../src/assets/projimg/github.png"),
@@ -306,7 +361,7 @@ export const projectjson = [
     tools: "Nodejs, inquirer to get user input from command line",
   },
   {
-    id: 11,
+    id: 12,
     projname: "Note taking App in Expressjs",
     projimg: require("../../src/assets/project/NoteTakingAppExpressjs/noteapp.png"),
     deployed: require("../../src/assets/projimg/github.png"),
@@ -340,7 +395,7 @@ export const projectjson = [
     tools: "Expressjs, router, middleware,uuid",
   },
   {
-    id: 12,
+    id: 13,
     projname: "Employement tracker App in Expressjs,mysql",
     projimg: require("../../src/assets/project/EmploymentTrackerExpressMysql/EmployeeDB1.png"),
     deployed: require("../../src/assets/projimg/github.png"),
