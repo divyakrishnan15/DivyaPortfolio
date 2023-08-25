@@ -21,7 +21,7 @@ function App() {
       <Contacts />
 
       {/* Bio Image */}
-      <BioImage />
+      {/* <BioImage /> */}
 
       {/* Objective */}
       <Objective />

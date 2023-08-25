@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./project.css";
 import { projectjson } from "../../json/projects_data";
 import Modal from "./Modal/Modal";
+import open_button from "../../assets/open-button-dark.png";
 
 export default function Projects() {
   const [show, setShow] = useState(false);
@@ -49,7 +50,9 @@ export default function Projects() {
               </div>
 
               <div className="deploy-main">
-                Deployed:{" "}
+                {/* Deployed<sup style={{fontSize:"12px"}}>(click icon<br/> to open)</sup>:{" "} */}
+                
+                Deployed<sup style={{verticalAlign:"5px", fontSize:"12px"}}>(click <strong>icon</strong> to open)</sup>:{" "}
                 <a href={proj.url} target="_blank" rel="noreferrer">
                   <img
                     src={proj.deployed}
@@ -58,7 +61,7 @@ export default function Projects() {
                   />
                 </a>
               </div>
-              <svg
+              {/* <svg
                 fill="#000000"
                 width="30px"
                 height="30px"
@@ -82,7 +85,18 @@ export default function Projects() {
                   height="32"
                   style={{ fill: "none" }}
                 />
-              </svg>
+              </svg> */}
+              {/* <img src={open_button} alt="open images" width="30px"/> */}
+              <img
+              className="popup_project"
+              src={open_button}
+              onClick={() => {
+                setShow(true);
+                setModalData(proj.images)
+              }}
+              width="22px"
+              height="22px"
+            />
             </div>
           );
         })}

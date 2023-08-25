@@ -1,5 +1,5 @@
 import React from "react";
-import divyakrishnan from "../../assets/DivyaKrishnan.jpg";
+import divyakrishnan from "../../assets/divyakrishnan.jpeg";
 import "./bio-image.css"
 
 export default function BioImage() {
