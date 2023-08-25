@@ -150,6 +150,52 @@ export const projectjson = [
   },
   {
     id: 5,
+    projname: "Create Social Network API with MongoDB",
+    projimg: require("../../src/assets/project/MongoDB/mongodb2.png"),
+    // deployed: require("../../src/assets/projimg/github.png"),
+    // url: "https://divyakrishnan15.github.io/password_generator/",
+    video: 'y2t1SozBMCs',
+    images: [
+      {
+        img: require("../../src/assets/project/MongoDB/mongodb1.png"),
+        text: "password home",
+      },
+      {
+        img: require("../../src/assets/project/MongoDB/mongodb2.png"),
+        text: "password generated",
+      },
+      {
+        img: require("../../src/assets/project/MongoDB/mongodb3.png"),
+        text: "password generated",
+      },
+    ],
+    tools: "HTML, CSS, Javascript",
+  },
+  {
+    id: 6,
+    projname: "Install Text Editor - PWA(Progressive Web App)",
+    projimg: require("../../src/assets/project/PWA/pwa2.png"),
+    // deployed: require("../../src/assets/projimg/github.png"),
+    // url: "https://divyakrishnan15.github.io/password_generator/",
+    // video: 'y2t1SozBMCs',
+    images: [
+      {
+        img: require("../../src/assets/project/PWA/pwa1.png"),
+        text: "password home",
+      },
+      {
+        img: require("../../src/assets/project/PWA/pwa2.png"),
+        text: "password generated",
+      },
+      {
+        img: require("../../src/assets/project/PWA/pwa3.png"),
+        text: "password generated",
+      },
+    ],
+    tools: "HTML, CSS, Javascript",
+  },
+  {
+    id: 7,
     projname: "Password Generator",
     projimg: require("../../src/assets/project/pwdgen/pwdgen.png"),
     deployed: require("../../src/assets/projimg/github.png"),
@@ -167,7 +213,7 @@ export const projectjson = [
     tools: "HTML, CSS, Javascript",
   },
   {
-    id: 6,
+    id: 8,
     projname: "Quiz app",
     projimg: require("../../src/assets/project/quizapp/quizapp-home.png"),
     deployed: require("../../src/assets/projimg/github.png"),
@@ -201,7 +247,7 @@ export const projectjson = [
     tools: "HTML, CSS, Jquery, LocalStorage",
   },
   {
-    id: 7,
+    id: 9,
     projname: "Work Scheduler",
     projimg: require("../../src/assets/project/workscheduler/workscheduler-3pm.png"),
     deployed: require("../../src/assets/projimg/github.png"),
@@ -219,7 +265,7 @@ export const projectjson = [
     tools: "HTML, CSS, Javascript, LocalStorage",
   },
   {
-    id: 8,
+    id: 10,
     projname: "Weather App",
     projimg: require("../../src/assets/project/weatherapp/weatherapp-home.png"),
     deployed: require("../../src/assets/projimg/github.png"),
@@ -238,7 +284,7 @@ export const projectjson = [
     tools: "Google Maps Api",
   },
   {
-    id: 9,
+    id: 11,
     projname: "Real Estate App",
     projimg: require("../../src/assets/project/realityreach/reality-reach-home1.png"),
     deployed: require("../../src/assets/projimg/github.png"),
@@ -296,11 +342,11 @@ export const projectjson = [
     tools: "HTML, Tailwind CSS, Pagination, Filter, Image Carousel",
   },
   {
-    id: 10,
+    id: 12,
     projname: "Password Generator in Reactjs",
     projimg: require("../../src/assets/project/pwdgenReactjs/ReactPasswordgen.png"),
-    deployed: require("../../src/assets/projimg/github.png"),
-    url: "https://divyakrishnan15.github.io/weatherapp/",
+    deployed: require("../../src/assets/projimg/netlify.png"),
+    url: "https://famous-khapse-d2736f.netlify.app/",
     images: [
       {
         img: require("../../src/assets/project/pwdgenReactjs/ReactPasswordgen1.png"),
@@ -314,7 +360,7 @@ export const projectjson = [
     tools: "Reactjs,useRef hook,copy to clipboard,slider input",
   },
   {
-    id: 11,
+    id: 13,
     projname: "Readme and SVG in Nodejs",
     projimg: require("../../src/assets/project/readmeSVGNodejs/svgcreattionandjesttest.png"),
     deployed: require("../../src/assets/projimg/github.png"),
@@ -361,7 +407,7 @@ export const projectjson = [
     tools: "Nodejs, inquirer to get user input from command line",
   },
   {
-    id: 12,
+    id: 14,
     projname: "Note taking App in Expressjs",
     projimg: require("../../src/assets/project/NoteTakingAppExpressjs/noteapp.png"),
     deployed: require("../../src/assets/projimg/github.png"),
@@ -395,7 +441,7 @@ export const projectjson = [
     tools: "Expressjs, router, middleware,uuid",
   },
   {
-    id: 13,
+    id: 15,
     projname: "Employement tracker App in Expressjs,mysql",
     projimg: require("../../src/assets/project/EmploymentTrackerExpressMysql/EmployeeDB1.png"),
     deployed: require("../../src/assets/projimg/github.png"),

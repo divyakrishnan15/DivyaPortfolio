@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <footer id="footer">
       <div className="footer-wrapper">
-        <span className="footer-card">
+        {/* <span className="footer-card">
           <section>
             <strong className="footer-heading">Address</strong>
           </section>
@@ -20,7 +20,7 @@ export default function Footer() {
             <section>50 Town Centre Court</section>
             <section>Scarborough,ON</section>
           </section>
-        </span>
+        </span> */}
         <span className="footer-card">
           <section>
             <strong className="footer-heading">Phone</strong>

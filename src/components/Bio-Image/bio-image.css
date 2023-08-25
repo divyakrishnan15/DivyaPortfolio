@@ -1,7 +1,8 @@
 @media only screen and (max-width: 588px) {
   .divya-krishnan-section {
     /* background-color: rgb(201, 255, 201); */
-    background-color: rgb(44, 43, 43);
+    background-color: aliceblue;
+    /* background-color: rgb(44, 43, 43); */
     width: 250px;
     border-radius: 15px;
     height: 330px;
@@ -23,7 +24,8 @@
 }
 @media only screen and (min-width: 1570px) {
   .divya-krishnan-section {
-    background-color: rgb(44, 43, 43);
+    background-color:;
+    /* background-color: rgb(44, 43, 43); */
     width: 250px;
     border-radius: 15px;
     height: 330px;
@@ -47,7 +49,8 @@
 @media only screen and (min-width: 588px) and (max-width: 1570px) {
   .divya-krishnan-section {
     /* background-color: rgb(201, 255, 201); */
-    background-color: rgb(44, 43, 43);
+    background-color: gray;
+    /* background-color: rgb(44, 43, 43); */
     width: 250px;
     border-radius: 15px;
     height: 330px;
